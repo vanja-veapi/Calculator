@@ -1,0 +1,67 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+@-webkit-keyframes myAnimation {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes myAnimation {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes myAnimation {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(120deg, #3300ff, #e627d9, #3300ff);
+    background-size: 600% 600%;
+    -webkit-animation: myAnimation 50s ease infinite;
+    -moz-animation: myAnimation 50s ease infinite;
+    animation: myAnimation 50s ease infinite;
+}
+td
+{
+    display: flex;
+    justify-content: space-between;
+}
+#table
+{
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#output
+{
+    text-align: right;
+    font-size: 50px;
+}
+.buttonAppearance
+{
+    margin-top: 5%;
+    padding: 40px;
+    font-size: 35px;
+}
+.buttonNum
+{
+   
+}
+.buttonZero
+{
+    margin-top: 5%;
+    padding: 40px 107px;
+    font-size: 35px;
+}
